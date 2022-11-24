@@ -1,0 +1,30 @@
+li{list-style:none;} /*PARA QUE NON SE VEXAN OS PUNTOS*/
+
+.image-gallery {
+    display: flex;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery > li {
+    flex-basis: 350px; /* width: 350px; */
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    width: 500px;
+    height: 200px;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+/*FONDO*/
+body{background-color:darkslateblue}
+
+/*TEXTO*/
+h1{text-align: center;
+color:yellowgreen;}
